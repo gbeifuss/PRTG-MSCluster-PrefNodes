@@ -34,7 +34,7 @@ param(
     [string]$IgnorePattern = ""
 )
 
-#catch all unhadled errors
+#catch all unhandled errors
 trap{
     Write-Output "<prtg>"
     Write-Output " <error>1</error>"
